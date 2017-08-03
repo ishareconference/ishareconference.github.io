@@ -343,6 +343,11 @@ a {
 }
 @media (min-width: 768px) {
   .landing--container {
+    padding: 140px 40px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .landing--container {
     padding: 140px 0 0;
   }
 }
@@ -521,6 +526,9 @@ a {
   z-index: -2;
   background: #53f;
 }
+.hero--bg.east {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
 .hero--bg svg {
   position: absolute;
   right: 300px;
@@ -670,6 +678,9 @@ a {
   .hero--title {
     font-size: 8rem;
   }
+  .hero--title.east {
+    font-size: 4rem;
+  }
 }
 .hero--subtitle {
   margin-bottom: 2rem;
@@ -689,7 +700,7 @@ a {
 .hero--info:last-of-type {
   margin-bottom: 1rem;
 }
-.hero--actions > a:last-child {
+.hero--actions > a:last-of-type {
   margin-left: 10px;
 }
 .speakers {
@@ -712,6 +723,11 @@ a {
   .speaker {
     width: 30%;
     margin: 0 1.5% 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .speaker {
+    width: 22%;
   }
 }
 .speaker--image {
