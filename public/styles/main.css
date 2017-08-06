@@ -700,7 +700,7 @@ a {
 .hero--info:last-of-type {
   margin-bottom: 1rem;
 }
-.hero--actions > a:last-of-type {
+.hero--actions > a:not(:first-of-type) {
   margin-left: 10px;
 }
 .speakers {
